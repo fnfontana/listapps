@@ -22,7 +22,7 @@ Currently, it can get the list from the registry, scoop, winget, chocolatey, pip
 
 It works as a wrapper for other commands, so it is not necessary to install it.
 
-Just copy the script file `listapps.ps1` into your PowerShell profile folder[^1] and add the following line to your profile:
+Just copy the script file `listapps.ps1` into your PowerShell profile folder [^1] and add the following line to your profile:
 
 `Invoke-Expression (Get-Content -Path .\Documents\PowerShell\listapps.ps1 -Raw)`
 
