@@ -36,13 +36,16 @@ To see the instructions on how to use this script, run:
 
 It can be powerful when combined with tools like those on the spreadsheet.
 
-| Command                                              | Description                              |
-|:----------------------------------------------------:| ----------------------------------------:|
-| [fzf](https://github.com/junegunn/fzf)               | Powerful Fuzzy Finder to filter the list |
-| [ripgrep](https://github.com/BurntSushi/ripgrep)     | Powerful RegEx search on the list        |
-| [more](https://en.wikipedia.org/wiki/More_(command)) | Show the list in a pager                 |
+| Command                                              | Description                                                                                  | Choice |
+|:----------------------------------------------------:| --------------------------------------------------------------------------------------------:| ------ |
+| [fzf](https://github.com/junegunn/fzf)               | Powerful Fuzzy Finder to filter the list                                                     | ⭐      |
+| [ripgrep](https://github.com/BurntSushi/ripgrep)     | Powerful RegEx search on the list                                                            | ⭐      |
+| [more](https://en.wikipedia.org/wiki/More_(command)) | Show the list in a pager                                                                     | ⭐      |
+| [peco](https://github.com/peco/peco)                 | A filtering tool that is similar to `fzf`                                                    |        |
+| [grep](https://en.wikipedia.org/wiki/Grep)           | `grep `is not available on Windows, but you can use it as an alias to `ripgrep `or `findstr` |        |
+| [findstr](https://en.wikipedia.org/wiki/Findstr)     | Similar to `grep`, used on Windows enviroments                                               |        |
 
-...And other commands like [peco](https://github.com/peco/peco), [grep](https://en.wikipedia.org/wiki/Grep), [findstr](https://en.wikipedia.org/wiki/Findstr), etc.
+And any other command that you can pipe it to!
 
 ### Examples
 
