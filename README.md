@@ -1,6 +1,6 @@
 # listapps
 
->  A simple powershell script to get a list of installed programs and applications on windows that can also work with most popular package managers.
+>  A simple PowerShell script to get a list of installed programs and applications on windows that can also work with most popular package managers.
 
 ## TOC
 
@@ -14,11 +14,11 @@
 
 This script creates the listapps function, that can be used to list all installed programs on the computer.
 
-Currently it can get the list from the registry, scoop, winget, chocolatey, pip, pipx, npm, yarn and cargo.
+Currently, it can get the list from the registry, scoop, winget, chocolatey, pip, pipx, npm, yarn and cargo.
 
 ## Simple To Install
 
-It works as wrapper for other commands, so it is not necessary to install it.
+It works as a wrapper for other commands, so it is not necessary to install it.
 
 Just copy the file into your PowerShell profile folder and add the following line to your profile:
 
@@ -26,11 +26,11 @@ Just copy the file into your PowerShell profile folder and add the following lin
 
 ## How To Use It
 
-To see the instructions on how to use this script, run
+To see the instructions on how to use this script, run:
 
 `listapps --help`
 
-It can be powerful when combined with tools like:
+It can be powerful when combined with tools like those on the spreadsheet.
 
 | Command                                              | Description                              |
 |:----------------------------------------------------:| ----------------------------------------:|
@@ -64,6 +64,6 @@ Developed by Fernando Fontana under the MIT License, 2022
 
 This means that you can use this script for free, but you can't sell it
 
-Also if you modify it, you must share the modifications under the same license
+Furthermore, if you modify it, you must share the modifications under the same license
 
 In other words: You can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source.
