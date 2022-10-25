@@ -1,20 +1,14 @@
 # listapps
 
-A simple powershell script to get a list of installed programs and applications on windows.
-
----
+>  A simple powershell script to get a list of installed programs and applications on windows that can also work with most popular package managers.
 
 ## TOC
 
-- [listapps](#listapps)
-  - [TOC](#toc)
-  - [Quick Description](#quick-description)
-  - [Simple To Install](#simple-to-install)
-  - [How To Use It](#how-to-use-it)
-    - [Examples](#examples)
-  - [Licensing](#licensing)
-
----
+- [Quick Description](#quick-description)
+- [Simple To Install](#simple-to-install)
+- [How To Use It](#how-to-use-it)
+  - [Examples](#examples)
+- [Licensing](#licensing)
 
 ## Quick Description
 
@@ -63,8 +57,6 @@ Another possibility is to save the list to a file and use it with other commands
 The functions mentioned above may be implemented on this script in the future, or I may develop a whole new CLI program with a better interface and more features.
 
 But for now, this is a simple script that works well enough for me.
-
----
 
 ## Licensing
 
