@@ -5,7 +5,6 @@
 ## TOC
 
 - [listapps](#listapps)
-  - [TOC](#toc)
   - [Quick Description](#quick-description)
   - [Simple To Install](#simple-to-install)
   - [How To Use It](#how-to-use-it)
@@ -64,7 +63,7 @@ But for now, this is a simple script that works well enough for me.
 
 Developed by Fernando Fontana under the MIT License, 2022
 
-This means that you can use this script for free, but you can't sell it
+This means that you can use this script for free, but you can't sell it without mention the author copyrights.
 
 Furthermore, if you modify it, you must share the modifications under the same license
 
