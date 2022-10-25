@@ -5,7 +5,7 @@
 ## TOC
 
 - [listapps](#listapps)
-  - 
+  - [TOC](#toc)
   - [Quick Description](#quick-description)
   - [Simple To Install](#simple-to-install)
   - [How To Use It](#how-to-use-it)
