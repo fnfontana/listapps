@@ -40,7 +40,7 @@ It can be powerful when combined with tools like those on the spreadsheet.
 |:----------------------------------------------------:| ----------------------------------------:|
 | [fzf](https://github.com/junegunn/fzf)               | Powerful Fuzzy Finder to filter the list |
 | [ripgrep](https://github.com/BurntSushi/ripgrep)     | Powerful RegEx search on the list        |
-| [more](https://pt.wikipedia.org/wiki/More_(comando)) | Show the list in a pager                 |
+| [more](https://en.wikipedia.org/wiki/More_(command)) | Show the list in a pager                 |
 
 ...And other commands like [peco](https://github.com/peco/peco), [grep](https://en.wikipedia.org/wiki/Grep), [findstr](https://en.wikipedia.org/wiki/Findstr), etc.
 
