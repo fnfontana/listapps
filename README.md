@@ -1,6 +1,6 @@
 # listapps
 
-> A simple PowerShell script to get a list of installed programs and applications on windows that can also work with most popular package managers.
+> A simple PowerShell script to get a list of installed programs and applications on Windows that can also work with most popular package managers.
 
 ## TOC
 
