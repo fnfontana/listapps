@@ -26,7 +26,7 @@ Just copy the script file `listapps.ps1` into your PowerShell profile folder [^1
 
 `Invoke-Expression (Get-Content -Path .\Documents\PowerShell\listapps.ps1 -Raw)`
 
-    [^1]: If the your PowerShell profile is located on another directory, replace this command with the proper path.
+    [^1]: If your PowerShell profile is located in a different directory, please replace this command with the correct path.
 
 ## How To Use It
 
