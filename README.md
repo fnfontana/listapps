@@ -50,7 +50,7 @@ It can be powerful when combined with tools like those on the spreadsheet.
 
 - `listapps --choco | fzf`
 
-Another possibility is to save the list to a file and use it with other commands
+Another possibility is to save the list to a file and use it with other commands:
 
 - `listapps --choco > choco_apps.txt`
 
@@ -62,7 +62,7 @@ But for now, this is a simple script that works well enough for me.
 
 ## Licensing
 
-Developed by Fernando Fontana under the MIT License, 2022
+Developed by Fernando Fontana under the MIT License, 2022.
 
 This means that you can use this script for free, but you can't sell it without mention the author copyrights.
 
