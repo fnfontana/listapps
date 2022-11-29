@@ -81,17 +81,17 @@ function show-installed-programs {
     }
     else {
         Write-Host "Invalid argument passed. Valid arguments are:"
-        Write-Host " -d     --default"
-        Write-Host "        --computer   (alias for --default)"
-        Write-Host " -c     --choco"
-        Write-Host "        --chocolatey (alias for --choco)"
-        Write-Host " -s     --scoop"
-        Write-Host " -w     --winget"
-        Write-Host " -p     --pip"
-        Write-Host " -px    --pipx"
-        Write-Host " -n     --npm"
-        Write-Host " -y     --yarn"
-        Write-Host " -cg    --cargo"
+        Write-Host " -d     default"
+        Write-Host "        computer   (alias for --default)"
+        Write-Host "        choco"
+        Write-Host "        chocolatey (alias for --choco)"
+        Write-Host "        scoop"
+        Write-Host "        winget"
+        Write-Host "        pip"
+        Write-Host "        pipx"
+        Write-Host "        npm"
+        Write-Host "        yarn"
+        Write-Host "        cargo"
         Write-Host " -h     --help"
     }
 }
