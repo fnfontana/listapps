@@ -77,6 +77,8 @@ function show-installed-programs {
         Write-Host " -y     --yarn             List all packages installed with yarn"
         Write-Host " -cg    --cargo            List all programs installed with cargo"
         Write-Host " -h     --help             Show this help message"
+        Write-Host " FLAGS AVAILABLE: "
+        Write-Host " -h     --help           Show this help message"
 
     }
     else {
