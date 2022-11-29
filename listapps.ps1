@@ -1,3 +1,7 @@
+# List all programs installed on the computer using the registry
+function show-installed-programs-hklm {
+    Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, Publisher | Sort-Object DisplayName | Format-Table -AutoSize
+}
 # List all programs installed with scoop
 function show-installed-programs-scoop {
     scoop list
