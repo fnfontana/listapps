@@ -2,6 +2,10 @@
 function show-installed-programs-scoop {
     scoop list
 }
+# List all programs installed with winget
+function show-installed-programs-winget {
+    winget list
+}
 # The following funciton list the apps instelled on the computer
 function show-installed-programs {
     if ($args[0] -eq "--default" -or $args[0] -eq "--computer" -or $null -eq $args[0] -or $args[0] -eq "-d" -or $args[0] -eq "") {
