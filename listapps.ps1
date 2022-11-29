@@ -17,41 +17,41 @@ function show-installed-programs-choco {
 
 # The following funciton list the apps instelled on the computer
 function show-installed-programs {
-    if ($args[0] -eq "--default" -or $args[0] -eq "--computer" -or $null -eq $args[0] -or $args[0] -eq "-d" -or $args[0] -eq "") {
+    if ($args[0] -eq "default" -or $args[0] -eq "computer" -or $null -eq $args[0] -or $args[0] -eq "") {
         show-installed-programs-hklm
     }
     # List all programs installed with scoop
-    elseif ($args[0] -eq "--scoop" -or $args[0] -eq "-s") {
+    elseif ($args[0] -eq "scoop") {
         show-installed-programs-scoop
     }
     # List all programs installed with winget
-    elseif ($args[0] -eq "--winget" -or $args[0] -eq "-w") {
+    elseif ($args[0] -eq "winget") {
         show-installed-programs-winget
     }
     # List all programs installed with choco
-    elseif ($args[0] -eq "--choco" -or $args[0] -eq "--chocolatey" -or $args[0] -eq "-c") {
+    elseif ($args[0] -eq "choco" -or $args[0] -eq "chocolatey") {
         show-installed-programs-choco
     }
 
     # Language specific package managers
     # list all programs installed with pip
-    elseif ($args[0] -eq "--pip" -or $args[0] -eq "-p") {
+    elseif ($args[0] -eq "pip") {
         pip list --format=columns
     }
     # list all programs under pipx virtual environments
-    elseif ($args[0] -eq "--pipx" -or $args[0] -eq "-px") {
+    elseif ($args[0] -eq "pipx") {
         pipx list
     }
     # list all packages installed with npm
-    elseif ($args[0] -eq "--npm" -or $args[0] -eq "-n") {
+    elseif ($args[0] -eq "npm") {
         npm list -g --depth=0
     }
     # list all packages installed with yarn
-    elseif ($args[0] -eq "--yarn" -or $args[0] -eq "-y") {
+    elseif ($args[0] -eq "yarn") {
         yarn global list --depth=0
     }
     # list all programs installed with cargo
-    elseif ($args[0] -eq "--cargo" -or $args[0] -eq "-cg") {
+    elseif ($args[0] -eq "-cargo") {
         cargo install --list
     }
 
