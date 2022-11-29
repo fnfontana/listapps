@@ -6,6 +6,11 @@ function show-installed-programs-scoop {
 function show-installed-programs-winget {
     winget list
 }
+# List all programs installed with choco
+function show-installed-programs-choco {
+    choco list --local-only
+}
+
 # The following funciton list the apps instelled on the computer
 function show-installed-programs {
     if ($args[0] -eq "--default" -or $args[0] -eq "--computer" -or $null -eq $args[0] -or $args[0] -eq "-d" -or $args[0] -eq "") {
