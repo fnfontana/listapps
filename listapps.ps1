@@ -59,7 +59,8 @@ function show-installed-programs {
     elseif ($args[0] -eq "--help" -or $args[0] -eq "-h") {
         Write-Host "List all programs and applications installed on the computer."
         Write-Host ""
-        Write-Host "Usage: show-installed-programs [OPTION]"
+        Write-Host "Usage: show-installed-programs [OPTION] [--Flags]"
+        Write-Host ""
         Write-Host ""
         Write-Host "OPTIONS AVAILABLE: "
         Write-Host ""
